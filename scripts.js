@@ -1,55 +1,249 @@
         // Enhanced Food Database with Recipes
 const foodDatabase = {
-    'USA': { 
-        name: 'United States', 
-        foods: [
-            { 
-                name: 'Hamburger', 
-                image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80',
-                recipe: {
-                    ingredients: [
-                        "1 lb ground beef",
-                        "1 tsp salt",
-                        "1/2 tsp black pepper",
-                        "4 hamburger buns",
-                        "Lettuce, tomato, onion for topping",
-                        "Cheese slices (optional)"
-                    ],
-                    steps: [
-                        "Mix ground beef with salt and pepper",
-                        "Form into 4 patties",
-                        "Grill or fry for 4-5 minutes per side",
-                        "Toast buns lightly",
-                        "Assemble with your favorite toppings"
-                    ]
-                }
-            },
-            { 
-                name: 'New York Pizza', 
-                image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80',
-                recipe: {
-                    ingredients: [
-                        "4 cups bread flour",
-                        "1 1/2 cups warm water",
-                        "2 tsp salt",
-                        "1 tsp sugar",
-                        "2 tbsp olive oil",
-                        "1 packet yeast",
-                        "Tomato sauce",
-                        "Mozzarella cheese",
-                        "Toppings of choice"
-                    ],
-                    steps: [
-                        "Mix dough ingredients and knead for 10 minutes",
-                        "Let rise for 1-2 hours",
-                        "Stretch dough into large circle",
-                        "Add sauce, cheese and toppings",
-                        "Bake at 475°F for 12-15 minutes"
-                    ]
-                }
+'USA': { 
+    name: 'United States', 
+    foods: [
+        { 
+            name: 'Classic Cheeseburger', 
+            image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+            recipe: {
+                ingredients: [
+                    "1 lb ground beef (80/20 blend)",
+                    "1 tsp kosher salt",
+                    "1/2 tsp black pepper",
+                    "1 tsp garlic powder",
+                    "4 sesame seed buns",
+                    "4 American cheese slices",
+                    "Lettuce, tomato, red onion",
+                    "Pickles and ketchup/mustard"
+                ],
+                steps: [
+                    "Gently mix beef with seasonings (don't overwork)",
+                    "Form into 4 equal patties, indent centers",
+                    "Grill over high heat for 3-4 minutes per side",
+                    "Add cheese last minute to melt",
+                    "Toast buns lightly on grill",
+                    "Build burger with toppings of choice"
+                ]
             }
-        ]
-    },
+        },
+        { 
+            name: 'New York Style Pizza', 
+            image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+            recipe: {
+                ingredients: [
+                    "4 cups high-gluten flour",
+                    "1 1/2 cups warm water (105°F)",
+                    "2 tsp salt",
+                    "1 tsp sugar",
+                    "2 tbsp olive oil",
+                    "1 packet instant yeast",
+                    "28oz can San Marzano tomatoes",
+                    "1 lb fresh mozzarella",
+                    "Fresh basil leaves"
+                ],
+                steps: [
+                    "Mix dough ingredients, knead 10 min until elastic",
+                    "Let rise 1-2 hours until doubled",
+                    "Hand-stretch dough (no rolling pin)",
+                    "Crush tomatoes by hand for sauce",
+                    "Top with torn mozzarella (not shredded)",
+                    "Bake at 475°F on pizza stone for 12-15 min",
+                    "Finish with fresh basil and olive oil"
+                ]
+            }
+        },
+        { 
+            name: 'Southern Fried Chicken', 
+            image: 'https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+            recipe: {
+                ingredients: [
+                    "3 lbs chicken pieces (bone-in)",
+                    "2 cups buttermilk",
+                    "2 cups all-purpose flour",
+                    "1 tbsp paprika",
+                    "2 tsp garlic powder",
+                    "1 tsp cayenne pepper",
+                    "1 tbsp salt",
+                    "Peanut oil for frying"
+                ],
+                steps: [
+                    "Soak chicken in buttermilk 4+ hours",
+                    "Mix flour with spices in paper bag",
+                    "Dredge chicken in flour mixture",
+                    "Let rest 15 mins before second dredge",
+                    "Fry at 325°F for 12-15 mins (dark meat) or 8-10 mins (white)",
+                    "Drain on wire rack (not paper towels)"
+                ]
+            }
+        },
+        { 
+            name: 'Texas BBQ Brisket', 
+            image: 'https://images.unsplash.com/photo-1556691421-cf15fe27a0b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+            recipe: {
+                ingredients: [
+                    "12 lb whole packer brisket",
+                    "1/4 cup coarse salt",
+                    "1/4 cup black pepper",
+                    "1/4 cup garlic powder",
+                    "Oak or hickory wood chunks",
+                    "Butcher paper for wrapping"
+                ],
+                steps: [
+                    "Trim brisket to 1/4" fat cap",
+                    "Apply equal parts salt/pepper/garlic rub",
+                    "Smoke at 225°F for 6 hours unwrapped",
+                    "Wrap in butcher paper when bark is set",
+                    "Continue cooking until 203°F internal temp",
+                    "Rest 2+ hours in cooler before slicing"
+                ]
+            }
+        },
+        { 
+            name: 'New England Clam Chowder', 
+            image: 'https://images.unsplash.com/photo-1601050690647-89b3fa8cdb0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+            recipe: {
+                ingredients: [
+                    "4 cups chopped clams with juice",
+                    "1/2 lb salt pork or bacon",
+                    "2 onions, diced",
+                    "4 potatoes, cubed",
+                    "4 cups fish stock",
+                    "2 cups heavy cream",
+                    "Oyster crackers",
+                    "Fresh thyme"
+                ],
+                steps: [
+                    "Render salt pork, sauté onions in fat",
+                    "Add potatoes and stock, simmer 15 mins",
+                    "Add clams and juice, cook 5 mins",
+                    "Stir in cream (don't boil after adding)",
+                    "Season with black pepper and thyme",
+                    "Serve with oyster crackers"
+                ]
+            }
+        },
+        { 
+            name: 'Chicago Deep Dish Pizza', 
+            image: 'https://images.unsplash.com/photo-1595708684082-a173bb3a06c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+            recipe: {
+                ingredients: [
+                    "4 cups flour",
+                    "1 1/2 cups warm water",
+                    "1/2 cup corn oil",
+                    "1 tsp sugar",
+                    "1 packet yeast",
+                    "28oz can crushed tomatoes",
+                    "1 lb mozzarella, sliced",
+                    "Italian sausage",
+                    "Parmesan cheese"
+                ],
+                steps: [
+                    "Press dough into well-oiled deep pan",
+                    "Layer sliced mozzarella over dough",
+                    "Add sausage and other toppings",
+                    "Top with crushed tomatoes (no cooking)",
+                    "Sprinkle with Parmesan and oregano",
+                    "Bake at 425°F for 30-35 mins"
+                ]
+            }
+        },
+        { 
+            name: 'Louisiana Gumbo', 
+            image: 'https://images.unsplash.com/photo-1611270630249-8a9cb8f92c1e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+            recipe: {
+                ingredients: [
+                    "1/2 cup flour + 1/2 cup oil (for roux)",
+                    "1 lb andouille sausage",
+                    "1 lb chicken thighs",
+                    "1 lb shrimp",
+                    "Holy trinity (onion, celery, bell pepper)",
+                    "4 cups chicken stock",
+                    "File powder",
+                    "Cooked white rice"
+                ],
+                steps: [
+                    "Make dark roux (chocolate color)",
+                    "Sauté holy trinity in roux",
+                    "Add meats and brown slightly",
+                    "Add stock and simmer 45 mins",
+                    "Add shrimp last 5 mins",
+                    "Serve over rice with file powder"
+                ]
+            }
+        },
+        { 
+            name: 'California Sushi Burrito', 
+            image: 'https://images.unsplash.com/photo-1553621042-f6e147245754?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+            recipe: {
+                ingredients: [
+                    "2 cups sushi rice",
+                    "Nori sheets (full size)",
+                    "1 avocado, sliced",
+                    "1/2 lb spicy tuna or crab mix",
+                    "Cucumber strips",
+                    "Carrot matchsticks",
+                    "Spicy mayo",
+                    "Sesame seeds"
+                ],
+                steps: [
+                    "Spread rice on nori, leaving 1" border",
+                    "Layer fillings horizontally in center",
+                    "Drizzle with spicy mayo",
+                    "Roll tightly like burrito",
+                    "Slice in half diagonally",
+                    "Sprinkle with sesame seeds"
+                ]
+            }
+        },
+        { 
+            name: 'Philly Cheesesteak', 
+            image: 'https://images.unsplash.com/photo-1603360946369-dc9bb6258143?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+            recipe: {
+                ingredients: [
+                    "1 lb ribeye steak, thinly sliced",
+                    "1 large onion, sliced",
+                    "4 hoagie rolls",
+                    "8 slices Cheez Whiz or provolone",
+                    "Banana peppers (optional)",
+                    "Salt and pepper"
+                ],
+                steps: [
+                    "Sauté onions until caramelized",
+                    "Cook steak slices on flat top grill",
+                    "Chop meat finely with spatulas",
+                    "Mix with onions, season well",
+                    "Melt cheese over meat mixture",
+                    "Load into toasted rolls"
+                ]
+            }
+        },
+        { 
+            name: 'Key Lime Pie', 
+            image: 'https://images.unsplash.com/photo-1603569283847-aa295f0d016a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+            recipe: {
+                ingredients: [
+                    "1 1/2 cups graham cracker crumbs",
+                    "1/3 cup sugar",
+                    "6 tbsp melted butter",
+                    "4 egg yolks",
+                    "14oz can sweetened condensed milk",
+                    "1/2 cup key lime juice",
+                    "1 tbsp lime zest",
+                    "Whipped cream"
+                ],
+                steps: [
+                    "Mix crumbs with sugar and butter",
+                    "Press into pie plate, bake 10 mins at 350°F",
+                    "Whisk yolks with condensed milk",
+                    "Add lime juice and zest",
+                    "Pour into crust, bake 15 mins",
+                    "Chill 4+ hours, top with whipped cream"
+                ]
+            }
+        }
+    ]
+},
     'ITA': { 
         name: 'Italy', 
         foods: [
