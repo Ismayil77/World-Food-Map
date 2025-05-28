@@ -79,7 +79,7 @@ const foodDatabase = {
         },
         { 
             name: 'Texas BBQ Brisket', 
-            image: 'https://images.unsplash.com/photo-1556691421-cf15fe27a0b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+            image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.epicurious.com%2Frecipes%2Ffood%2Fviews%2Ftexas-style-barbecued-brisket-242249&psig=AOvVaw1938AFvOA4Hw155m8P-l_i&ust=1748521232747000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLiG7K6Txo0DFQAAAAAdAAAAABAE',
             recipe: {
                 ingredients: [
                     "12 lb whole packer brisket",
@@ -101,7 +101,7 @@ const foodDatabase = {
         },
         { 
             name: 'New England Clam Chowder', 
-            image: 'https://images.unsplash.com/photo-1601050690647-89b3fa8cdb0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+            image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.allrecipes.com%2Frecipe%2F13078%2Fnew-england-clam-chowder-i%2F&psig=AOvVaw3OdxODjz3bzZ1SSMq9ihRA&ust=1748521286480000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPjC_sSTxo0DFQAAAAAdAAAAABAE',
             recipe: {
                 ingredients: [
                     "4 cups chopped clams with juice",
@@ -150,7 +150,7 @@ const foodDatabase = {
         },
         { 
             name: 'Louisiana Gumbo', 
-            image: 'https://images.unsplash.com/photo-1611270630249-8a9cb8f92c1e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+            image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thespruceeats.com%2Flouisiana-creole-gumbo-5210060&psig=AOvVaw2IxcY_OFmhIBWsQII9gzZ0&ust=1748521360640000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjrl-eTxo0DFQAAAAAdAAAAABAE',
             recipe: {
                 ingredients: [
                     "1/2 cup flour + 1/2 cup oil (for roux)",
