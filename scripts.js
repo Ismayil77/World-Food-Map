@@ -567,7 +567,332 @@ const foodDatabase = {
                 }
             }
         ]
-    }
+    },
+          'MH': {
+                name: 'Maharashtra',
+                foods: [
+                    {
+                        name: 'Pav Bhaji (Mumbai)',
+                        image: 'https://images.unsplash.com/photo-1630918237298-9a0f21363ae6?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80',
+                        recipe: {
+                            ingredients: [
+                                "4 potatoes, boiled and mashed",
+                                "1 cup mixed vegetables (peas, carrots, cauliflower)",
+                                "2 tbsp pav bhaji masala",
+                                "1 onion, finely chopped",
+                                "2 tomatoes, pureed",
+                                "Butter",
+                                "Pav (bread rolls)"
+                            ],
+                            steps: [
+                                "Sauté onions in butter until golden",
+                                "Add tomato puree and cook until oil separates",
+                                "Add mashed vegetables and spices",
+                                "Mash everything together",
+                                "Serve hot with buttered pav"
+                            ]
+                        }
+                    },
+                    {
+                        name: 'Puran Poli (Pune)',
+                        image: 'https://images.unsplash.com/photo-1601050690117-64d028c8a0e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80',
+                        recipe: {
+                            ingredients: [
+                                "1 cup chana dal",
+                                "1 cup jaggery",
+                                "1 cup flour",
+                                "Cardamom powder",
+                                "Ghee"
+                            ],
+                            steps: [
+                                "Cook dal until soft and drain",
+                                "Mix with jaggery and cardamom to make puran",
+                                "Make dough with flour and water",
+                                "Stuff puran in dough balls and roll out",
+                                "Cook on griddle with ghee"
+                            ]
+                        }
+                    }
+                ]
+            },
+        'TN': {
+                name: 'Tamil Nadu',
+                foods: [
+                    {
+                        name: 'Dosa (Chennai)',
+                        image: 'https://images.unsplash.com/photo-1587794208952-c5c8dd2d7b6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80',
+                        recipe: {
+                            ingredients: [
+                                "2 cups rice",
+                                "1 cup urad dal",
+                                "1/2 tsp fenugreek seeds",
+                                "Salt to taste",
+                                "Oil for cooking"
+                            ],
+                            steps: [
+                                "Soak rice and dal separately for 6 hours",
+                                "Grind to smooth batter and ferment overnight",
+                                "Spread thin on hot griddle",
+                                "Drizzle oil and cook until crisp",
+                                "Serve with sambar and chutney"
+                            ]
+                        }
+                    },
+                    {
+                        name: 'Chettinad Chicken (Karaikudi)',
+                        image: 'https://images.unsplash.com/photo-1603360946369-dc9bb6258143?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80',
+                        recipe: {
+                            ingredients: [
+                                "1 kg chicken",
+                                "2 onions, sliced",
+                                "2 tomatoes, chopped",
+                                "1 tbsp ginger-garlic paste",
+                                "2 tbsp Chettinad masala",
+                                "Coconut oil",
+                                "Curry leaves"
+                            ],
+                            steps: [
+                                "Marinate chicken with spices for 1 hour",
+                                "Heat oil and temper with curry leaves",
+                                "Sauté onions until golden",
+                                "Add tomatoes and cook until soft",
+                                "Add chicken and cook until done"
+                            ]
+                        }
+                    }
+                ]
+            },
+            'PB': {
+                name: 'Punjab',
+                foods: [
+                    {
+                        name: 'Sarson da Saag with Makki di Roti (Amritsar)',
+                        image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80',
+                        recipe: {
+                            ingredients: [
+                                "2 bunches mustard greens",
+                                "1 bunch spinach",
+                                "2 tbsp maize flour",
+                                "2 tbsp ghee",
+                                "Garlic, ginger, green chilies",
+                                "Makki flour for roti"
+                            ],
+                            steps: [
+                                "Boil greens until tender",
+                                "Blend coarsely with maize flour",
+                                "Temper with ghee and spices",
+                                "For roti, knead makki flour with water",
+                                "Cook roti on griddle",
+                                "Serve hot with white butter"
+                            ]
+                        }
+                    },
+                    {
+                        name: 'Amritsari Kulcha (Amritsar)',
+                        image: 'https://images.unsplash.com/photo-1601050690117-64d028c8a0e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80',
+                        recipe: {
+                            ingredients: [
+                                "2 cups maida",
+                                "1/2 cup curd",
+                                "1 tsp baking powder",
+                                "Potato filling with spices",
+                                "Nigella seeds",
+                                "Butter"
+                            ],
+                            steps: [
+                                "Knead dough with curd and baking powder",
+                                "Stuff with spiced potato mixture",
+                                "Sprinkle nigella seeds and bake in tandoor",
+                                "Brush with butter before serving"
+                            ]
+                        }
+                    }
+                ]
+            },
+            'WB': {
+                name: 'West Bengal',
+                foods: [
+                    {
+                        name: 'Kosha Mangsho (Kolkata)',
+                        image: 'https://images.unsplash.com/photo-1601050690117-64d028c8a0e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80',
+                        recipe: {
+                            ingredients: [
+                                "1 kg mutton",
+                                "2 onions, paste",
+                                "2 tbsp ginger-garlic paste",
+                                "1 cup yogurt",
+                                "2 tbsp garam masala",
+                                "Mustard oil"
+                            ],
+                            steps: [
+                                "Marinate mutton with yogurt and spices",
+                                "Heat mustard oil until smoking point",
+                                "Brown onion paste with ginger-garlic",
+                                "Add mutton and cook on low heat for hours",
+                                "Finish with garam masala"
+                            ]
+                        }
+                    },
+                    {
+                        name: 'Shorshe Ilish (Murshidabad)',
+                        image: 'https://images.unsplash.com/photo-1601050690117-64d028c8a0e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80',
+                        recipe: {
+                            ingredients: [
+                                "4 pieces Hilsa fish",
+                                "4 tbsp mustard paste",
+                                "2 green chilies",
+                                "1/2 tsp turmeric",
+                                "Mustard oil",
+                                "Salt"
+                            ],
+                            steps: [
+                                "Marinate fish with turmeric and salt",
+                                "Make paste of mustard seeds with chilies",
+                                "Heat mustard oil in pan",
+                                "Add fish and mustard paste",
+                                "Steam cook for 10 minutes"
+                            ]
+                        }
+                    }
+                ]
+            },
+            'GJ': {
+                name: 'Gujarat',
+                foods: [
+                    {
+                        name: 'Dhokla (Ahmedabad)',
+                        image: 'https://images.unsplash.com/photo-1601050690117-64d028c8a0e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80',
+                        recipe: {
+                            ingredients: [
+                                "1 cup gram flour",
+                                "1/2 cup yogurt",
+                                "1 tsp fruit salt",
+                                "1 tsp ginger-chili paste",
+                                "For tempering: mustard seeds, curry leaves",
+                                "Sugar, lemon juice"
+                            ],
+                            steps: [
+                                "Mix flour, yogurt, water to make batter",
+                                "Add fruit salt just before steaming",
+                                "Steam for 15-20 minutes",
+                                "Temper with mustard seeds and curry leaves",
+                                "Add sweet-sour water"
+                            ]
+                        }
+                    },
+                    {
+                        name: 'Khandvi (Surat)',
+                        image: 'https://images.unsplash.com/photo-1601050690117-64d028c8a0e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80',
+                        recipe: {
+                            ingredients: [
+                                "1 cup gram flour",
+                                "1/2 cup buttermilk",
+                                "1/2 tsp turmeric",
+                                "For tempering: sesame seeds, coconut",
+                                "Ginger, green chilies"
+                            ],
+                            steps: [
+                                "Mix flour with buttermilk to make batter",
+                                "Cook on low heat until thick",
+                                "Spread thin on greased surface",
+                                "Roll tightly and cut",
+                                "Add tempering and garnish"
+                            ]
+                        }
+                    }
+                ]
+            },
+            'KL': {
+                name: 'Kerala',
+                foods: [
+                    {
+                        name: 'Appam with Stew (Kottayam)',
+                        image: 'https://images.unsplash.com/photo-1601050690117-64d028c8a0e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80',
+                        recipe: {
+                            ingredients: [
+                                "2 cups rice",
+                                "1/2 cup cooked rice",
+                                "1/2 cup coconut milk",
+                                "1 tsp yeast",
+                                "Sugar, salt",
+                                "For stew: vegetables, coconut milk, spices"
+                            ],
+                            steps: [
+                                "Soak rice for 4-5 hours",
+                                "Grind with cooked rice to make batter",
+                                "Add coconut milk and yeast, ferment",
+                                "Cook in appam pan with swirling motion",
+                                "For stew, cook vegetables in coconut milk"
+                            ]
+                        }
+                    },
+                    {
+                        name: 'Malabar Biryani (Kozhikode)',
+                        image: 'https://images.unsplash.com/photo-1601050690117-64d028c8a0e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80',
+                        recipe: {
+                            ingredients: [
+                                "2 cups basmati rice",
+                                "1 kg chicken",
+                                "2 onions, sliced",
+                                "1 cup yogurt",
+                                "2 tbsp Malabar biryani masala",
+                                "Ghee, fried onions, mint, cilantro"
+                            ],
+                            steps: [
+                                "Marinate chicken with yogurt and spices",
+                                "Parboil rice with whole spices",
+                                "Layer rice and chicken in handi",
+                                "Seal and cook on dum for 30 minutes",
+                                "Garnish with fried onions and herbs"
+                            ]
+                        }
+                    }
+                ]
+            },
+            'RJ': {
+                name: 'Rajasthan',
+                foods: [
+                    {
+                        name: 'Dal Baati Churma (Jaipur)',
+                        image: 'https://images.unsplash.com/photo-1601050690117-64d028c8a0e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80',
+                        recipe: {
+                            ingredients: [
+                                "For baati: whole wheat flour, ghee",
+                                "For dal: mixed lentils, ghee, spices",
+                                "For churma: crushed baati, jaggery, ghee"
+                            ],
+                            steps: [
+                                "Make hard dough with wheat flour and ghee",
+                                "Shape into balls and bake until golden",
+                                "Cook dal with Rajasthani spices",
+                                "For churma, crush some baati with jaggery",
+                                "Serve baati dipped in ghee with dal"
+                            ]
+                        }
+                    },
+                    {
+                        name: 'Laal Maas (Jodhpur)',
+                        image: 'https://images.unsplash.com/photo-1601050690117-64d028c8a0e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80',
+                        recipe: {
+                            ingredients: [
+                                "1 kg mutton",
+                                "10-12 Mathania chilies",
+                                "1 cup yogurt",
+                                "Garlic paste",
+                                "Ghee",
+                                "Coriander powder"
+                            ],
+                            steps: [
+                                "Soak chilies in water to make paste",
+                                "Marinate mutton with yogurt and spices",
+                                "Cook in ghee with chili paste",
+                                "Slow cook until tender",
+                                "Finish with garlic and coriander"
+                            ]
+                        }
+                    }
+                ]
+            }
 };
 
         // Country coordinates for click detection
@@ -582,7 +907,16 @@ const foodDatabase = {
     { code: 'CHN', name: 'China', coords: [104, 35] },
     { code: 'GBR', name: 'United Kingdom', coords: [-2, 54] },
     { code: 'TUR', name: 'Turkey', coords: [35, 39] },
-    { code: 'ESP', name: 'Spain', coords: [-3, 40] }
+    { code: 'ESP', name: 'Spain', coords: [-3, 40] },
+   //india start
+    { code: 'MH', name: 'Maharashtra', coords: [75, 19] },
+    { code: 'TN', name: 'Tamil Nadu', coords: [78, 11] },
+    { code: 'PB', name: 'Punjab', coords: [75, 31] },
+    { code: 'WB', name: 'West Bengal', coords: [88, 23] },
+    { code: 'GJ', name: 'Gujarat', coords: [72, 22] },
+    { code: 'KL', name: 'Kerala', coords: [76, 10] },
+    { code: 'RJ', name: 'Rajasthan', coords: [74, 27] }
+           //india close
 ];
 
         // Initialize the map
