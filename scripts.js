@@ -90,7 +90,7 @@ const foodDatabase = {
                     "Butcher paper for wrapping"
                 ],
                 steps: [
-                    "Trim brisket to 1/4" fat cap",
+                    "Trim brisket to 1/4 fat cap",
                     "Apply equal parts salt/pepper/garlic rub",
                     "Smoke at 225°F for 6 hours unwrapped",
                     "Wrap in butcher paper when bark is set",
