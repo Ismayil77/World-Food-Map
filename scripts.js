@@ -187,7 +187,7 @@ const foodDatabase = {
                     "Sesame seeds"
                 ],
                 steps: [
-                    "Spread rice on nori, leaving 1" border",
+                    "Spread rice on nori, leaving 1 border",
                     "Layer fillings horizontally in center",
                     "Drizzle with spicy mayo",
                     "Roll tightly like burrito",
